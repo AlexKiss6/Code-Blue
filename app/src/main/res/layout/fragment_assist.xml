@@ -19,7 +19,7 @@
             android:paddingRight="85dp"
             android:drawableLeft="@drawable/ic_tab_assist"
             android:textColor="@color/colorPrimaryDark"
-            android:id="@+id/ButtonJumpStart"
+            android:id="@+id/ButtonJumpstart"
             android:drawablePadding="-15sp"
             android:text="jumpstart"
             android:textSize="20sp"
