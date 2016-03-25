@@ -2,14 +2,139 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="horizontal"
     tools:context="info.androidhive.materialtabs.fragments.OneFragment">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Call"
-        android:textSize="40dp"
-        android:textStyle="bold"
-        android:layout_centerInParent="true"/>
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
 
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Security"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:paddingLeft="30dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"/>
+
+        <View android:layout_width="wrap_content"
+            android:layout_height="2px"
+            android:background="@color/colorPrimaryDark"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="#FFFFFF"
+        android:drawableTint="@color/colorPrimaryDark"
+        android:paddingLeft="75dp"
+        android:paddingRight="85dp"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/ic_tab_call"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/ButtonEmergency"
+        android:drawablePadding="-15sp"
+        android:text="Emergency"
+        android:textSize="20sp"
+        android:textAlignment="gravity"></Button>
+
+    <View android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:background="#90f9f9f9"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="#FFFFFF"
+        android:drawableTint="@color/colorPrimaryDark"
+        android:paddingLeft="75dp"
+        android:paddingRight="85dp"
+        android:drawableLeft="@drawable/ic_tab_call"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/ButtonCampusSecurity"
+        android:drawablePadding="-15sp"
+        android:text="Campus Security"
+        android:textSize="20sp"
+        android:textAlignment="gravity"></Button>
+
+    <View android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:background="#90f9f9f9"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="#FFFFFF"
+        android:drawableTint="@color/colorPrimaryDark"
+        android:paddingLeft="75dp"
+        android:paddingRight="85dp"
+        android:drawableLeft="@drawable/ic_tab_call"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/ButtonLakelandPolice"
+        android:drawablePadding="-15sp"
+        android:text="Lakeland Police"
+        android:textSize="20sp"
+        android:textAlignment="gravity"></Button>
+
+    <View android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:background="#90f9f9f9"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="#FFFFFF"
+        android:drawableTint="@color/colorPrimaryDark"
+        android:paddingLeft="75dp"
+        android:paddingRight="85dp"
+        android:drawableLeft="@drawable/ic_tab_call"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/ButtonPolkCountySheriff"
+        android:drawablePadding="-15sp"
+        android:text="Polk County Sheriff"
+        android:textSize="20sp"
+        android:textAlignment="gravity"></Button>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Faculty"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:paddingLeft="30dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"/>
+
+        <View android:layout_width="wrap_content"
+            android:layout_height="2px"
+            android:background="@color/colorPrimaryDark"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:background="#FFFFFF"
+            android:drawableTint="@color/colorPrimaryDark"
+            android:paddingLeft="75dp"
+            android:paddingRight="85dp"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/ic_tab_call"
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/ButtonFaculty1"
+            android:drawablePadding="-15sp"
+            android:text="Emergency"
+            android:textSize="20sp"
+            android:textAlignment="gravity"></Button>
+
+
+    </LinearLayout>
+    </ScrollView>
 </RelativeLayout>
