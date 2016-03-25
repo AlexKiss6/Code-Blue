@@ -5,6 +5,7 @@
     <!-- permissions go here -->
     <!-- sample permission: <uses-permission android:name="android.permission.GET_ACCOUNTS" /> -->
     <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"

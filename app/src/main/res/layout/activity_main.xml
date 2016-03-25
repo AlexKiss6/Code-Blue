@@ -24,6 +24,7 @@
             android:background="@color/colorSecondary"
             app:tabMode="fixed"
             app:tabGravity="fill"/>
+
     </android.support.design.widget.AppBarLayout>
 
     <android.support.v4.view.ViewPager

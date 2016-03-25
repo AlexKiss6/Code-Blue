@@ -130,10 +130,99 @@
             android:textColor="@color/colorPrimaryDark"
             android:id="@+id/ButtonFaculty1"
             android:drawablePadding="-15sp"
-            android:text="Emergency"
+            android:text="Example"
             android:textSize="20sp"
             android:textAlignment="gravity"></Button>
+        <View android:layout_width="fill_parent"
+            android:layout_height="2px"
+            android:background="#90f9f9f9"/>
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:background="#FFFFFF"
+            android:drawableTint="@color/colorPrimaryDark"
+            android:paddingLeft="75dp"
+            android:paddingRight="85dp"
+            android:drawableLeft="@drawable/ic_tab_call"
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/ButtonFaculty2"
+            android:drawablePadding="-15sp"
+            android:text="Example"
+            android:textSize="20sp"
+            android:textAlignment="gravity"></Button>
+        <View android:layout_width="fill_parent"
+            android:layout_height="2px"
+            android:background="#90f9f9f9"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:background="#FFFFFF"
+            android:drawableTint="@color/colorPrimaryDark"
+            android:paddingLeft="75dp"
+            android:paddingRight="85dp"
+            android:drawableLeft="@drawable/ic_tab_call"
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/ButtonFaculty3"
+            android:drawablePadding="-15sp"
+            android:text="Example"
+            android:textSize="20sp"
+            android:textAlignment="gravity"></Button>
+        <View android:layout_width="fill_parent"
+            android:layout_height="2px"
+            android:background="#90f9f9f9"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:background="#FFFFFF"
+            android:drawableTint="@color/colorPrimaryDark"
+            android:paddingLeft="75dp"
+            android:paddingRight="85dp"
+            android:drawableLeft="@drawable/ic_tab_call"
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/ButtonFaculty4"
+            android:drawablePadding="-15sp"
+            android:text="Example"
+            android:textSize="20sp"
+            android:textAlignment="gravity"></Button>
+        <View android:layout_width="fill_parent"
+            android:layout_height="2px"
+            android:background="#90f9f9f9"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:background="#FFFFFF"
+            android:drawableTint="@color/colorPrimaryDark"
+            android:paddingLeft="75dp"
+            android:paddingRight="85dp"
+            android:drawableLeft="@drawable/ic_tab_call"
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/ButtonFaculty5"
+            android:drawablePadding="-15sp"
+            android:text="Example"
+            android:textSize="20sp"
+            android:textAlignment="gravity"></Button>
+        <View android:layout_width="fill_parent"
+            android:layout_height="2px"
+            android:background="#90f9f9f9"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:background="#FFFFFF"
+            android:drawableTint="@color/colorPrimaryDark"
+            android:paddingLeft="75dp"
+            android:paddingRight="85dp"
+            android:drawableLeft="@drawable/ic_tab_call"
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/ButtonFaculty6"
+            android:drawablePadding="-15sp"
+            android:text="Example"
+            android:textSize="20sp"
+            android:textAlignment="gravity"></Button>
 
     </LinearLayout>
     </ScrollView>
