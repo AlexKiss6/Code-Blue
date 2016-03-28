@@ -16,6 +16,9 @@ import com.example.alex.codeblue.Fragments.NewsFragment;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Created by Alex Kiss on 3/25/2016.
+ */
 public class MainActivity extends AppCompatActivity {
 
     private Toolbar toolbar;

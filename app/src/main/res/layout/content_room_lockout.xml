@@ -12,11 +12,67 @@
     tools:context=".AssistInputActivities.RoomLockoutActivity"
     tools:showIn="@layout/activity_room_lockout">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Room Lockout Activity"
-        android:textSize="30dp"
-        android:textStyle="bold"
-        android:layout_centerInParent="true"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:lines="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editBuildingNumber"
+                android:hint="Building Number"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:inputType="textCapSentences"
+                android:editable="true" />
+
+            <EditText
+                android:lines="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editApartmentNumber"
+                android:hint="Apartment Number"
+                android:layout_below="@+id/editCarMake"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:inputType="textCapSentences"/>
+
+            <TextView
+                android:paddingTop="15dp"
+                android:paddingBottom="5dp"
+                android:text="Comment:"
+                android:textSize="18sp"/>
+
+            <EditText
+                android:minLines="6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="top"
+                android:scrollbars="vertical"
+                android:id="@+id/editCustomMessage"
+                android:layout_below="@+id/editCarMake"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:inputType="textMultiLine|textCapSentences"/>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/buttonSend"
+                android:text="Send"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="#ffffff"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+        </TableLayout>
+    </ScrollView>
 </RelativeLayout>

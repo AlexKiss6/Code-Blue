@@ -28,23 +28,23 @@
             android:theme="@style/MyMaterialTheme"></activity>
         <activity
             android:name=".AssistInputActivities.AnimalControlActivity"
-            android:label="@string/title_activity_jumpstart"
+            android:label="@string/title_activity_animal_control"
             android:theme="@style/MyMaterialTheme"></activity>
         <activity
             android:name=".AssistInputActivities.EscortActivity"
-            android:label="@string/title_activity_jumpstart"
+            android:label="@string/title_activity_escort"
             android:theme="@style/MyMaterialTheme"></activity>
         <activity
             android:name=".AssistInputActivities.NoiseComplaintActivity"
-            android:label="@string/title_activity_jumpstart"
+            android:label="@string/title_activity_noise_complaint"
             android:theme="@style/MyMaterialTheme"></activity>
         <activity
             android:name=".AssistInputActivities.RoomLockoutActivity"
-            android:label="@string/title_activity_jumpstart"
+            android:label="@string/title_activity_room_lockout"
             android:theme="@style/MyMaterialTheme"></activity>
         <activity
             android:name=".AssistInputActivities.VehicleLockoutActivity"
-            android:label="@string/title_activity_jumpstart"
+            android:label="@string/title_activity_vehicle_lockout"
             android:theme="@style/MyMaterialTheme"></activity>
     </application>
 

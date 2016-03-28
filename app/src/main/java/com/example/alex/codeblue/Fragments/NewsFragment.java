@@ -9,7 +9,7 @@ import android.view.ViewGroup;
 import com.example.alex.codeblue.R;
 
 /**
- * Created by Alex on 3/23/2016.
+ * Created by Alex Kiss on 3/25/2016.
  */
 public class NewsFragment extends Fragment {
 

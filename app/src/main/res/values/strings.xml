@@ -1,5 +1,10 @@
 <resources>
     <string name="app_name">CodeBlue</string>
     <string name="action_settings">Settings</string>
-    <string name="title_activity_jumpstart">JumpstartActivity</string>
+    <string name="title_activity_jumpstart">Request Jump Start</string>
+    <string name="title_activity_escort">Request Escort</string>
+    <string name="title_activity_animal_control">Request Animal Control</string>
+    <string name="title_activity_noise_complaint">Request Noise Complaint</string>
+    <string name="title_activity_room_lockout">Request Room Unlock</string>
+    <string name="title_activity_vehicle_lockout">Request Vehicle Lockout</string>
 </resources>
