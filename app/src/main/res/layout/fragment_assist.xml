@@ -16,12 +16,12 @@
 
         <Button
             android:layout_width="match_parent"
-            android:layout_height="75dp"
+            android:layout_height="74dp"
             android:background="#FFFFFF"
             android:drawableTint="@color/colorPrimaryDark"
             android:paddingLeft="75dp"
             android:paddingRight="85dp"
-            android:drawableLeft="@drawable/ic_tab_assist"
+            android:drawableLeft="@drawable/ic_jumpstart"
             android:textColor="@color/colorPrimaryDark"
             android:id="@+id/ButtonJumpstart"
             android:drawablePadding="-15sp"
@@ -35,12 +35,12 @@
 
         <Button
             android:layout_width="match_parent"
-            android:layout_height="75dp"
+            android:layout_height="74dp"
             android:background="#FFFFFF"
             android:drawableTint="@color/colorPrimaryDark"
             android:paddingLeft="75dp"
             android:paddingRight="50dp"
-            android:drawableLeft="@drawable/ic_tab_assist"
+            android:drawableLeft="@drawable/ic_room_lockout"
             android:textColor="@color/colorPrimaryDark"
             android:id="@+id/ButtonRoomLockout"
             android:drawablePadding="-15sp"
@@ -53,12 +53,12 @@
 
         <Button
             android:layout_width="match_parent"
-            android:layout_height="75dp"
+            android:layout_height="74dp"
             android:background="#FFFFFF"
             android:drawableTint="@color/colorPrimaryDark"
             android:paddingLeft="75dp"
             android:paddingRight="30dp"
-            android:drawableLeft="@drawable/ic_tab_assist"
+            android:drawableLeft="@drawable/ic_noise_complaint"
             android:textColor="@color/colorPrimaryDark"
             android:id="@+id/ButtonNoiseComplaint"
             android:drawablePadding="-15sp"
@@ -71,12 +71,12 @@
 
         <Button
             android:layout_width="match_parent"
-            android:layout_height="75dp"
+            android:layout_height="74dp"
             android:background="#FFFFFF"
             android:drawableTint="@color/colorPrimaryDark"
             android:paddingLeft="75dp"
             android:paddingRight="130dp"
-            android:drawableLeft="@drawable/ic_tab_assist"
+            android:drawableLeft="@drawable/ic_escort"
             android:textColor="@color/colorPrimaryDark"
             android:id="@+id/ButtonEscort"
             android:drawablePadding="-15sp"
@@ -89,12 +89,12 @@
 
         <Button
             android:layout_width="match_parent"
-            android:layout_height="75dp"
+            android:layout_height="74dp"
             android:background="#FFFFFF"
             android:drawableTint="@color/colorPrimaryDark"
             android:paddingLeft="75dp"
             android:paddingRight="30dp"
-            android:drawableLeft="@drawable/ic_tab_assist"
+            android:drawableLeft="@drawable/ic_vehicle_lockout"
             android:textColor="@color/colorPrimaryDark"
             android:id="@+id/ButtonVehicleLockout"
             android:drawablePadding="-15sp"
@@ -107,12 +107,12 @@
 
         <Button
             android:layout_width="match_parent"
-            android:layout_height="75dp"
+            android:layout_height="74dp"
             android:background="#FFFFFF"
             android:drawableTint="@color/colorPrimaryDark"
             android:paddingLeft="75dp"
             android:paddingRight="35dp"
-            android:drawableLeft="@drawable/ic_tab_assist"
+            android:drawableLeft="@drawable/ic_animal_control"
             android:textColor="@color/colorPrimaryDark"
             android:id="@+id/ButtonAnimalControl"
             android:drawablePadding="-15sp"
